@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Test
+{
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner (System.in);
+        
+        System.out.print("Enter integers between 1 and 100 (entering 0 ends the program): ");
+        int[] num = new int[100];
+        int occurance = 0;
+        
+         
+         
+         while ((occurance = input.nextInt()) != 0) {
+            num[occurance]++;
+        }
+ 
+        for (int i = 1; i < 100; ++i) {
+            if (num[i] > 0)
+               if(num[i] < 2)
+                System.out.println(i + " occurs " + num[i] + " time ");
+            else
+                System.out.println(i + " occurs " + num[i] + " times ");
+        }
+         
+        }
+    }

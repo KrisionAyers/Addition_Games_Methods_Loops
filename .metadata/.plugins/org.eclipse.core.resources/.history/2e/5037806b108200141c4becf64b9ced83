@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class Test {
+	  public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+
+	//Prompt input of 4 integers
+	   int num, sum = 0, count;
+	    for (count = 0; count < 4; count++){
+	    	System.out.println("Enter an integer: ");
+	    	num = input.nextInt();
+	        sum += num;
+	    }
+	    System.out.println("The sum is " + sum);
+	  }
+	    }
+	    

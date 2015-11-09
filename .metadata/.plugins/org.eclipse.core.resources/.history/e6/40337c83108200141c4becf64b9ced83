@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+public class Test {
+	  public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+
+	//Prompt input of 2 numbers
+	    	System.out.println("Enter two integer: ");
+	    int a = input.nextInt();
+	    int b = input.nextInt();
+	    
+	    if (a > b){
+	     System.out.println(a + " is the largest of the two numbers.");
+	     
+	    }
+	    if (a < b){
+	    	System.out.println(" is the largest of the two numbers.");
+	    }
+	    else
+	    	System.out.println("The numbers are equal.");
+	    }
+	  }
+}
+	    

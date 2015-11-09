@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class Test {
+	  public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+
+	//Prompt input of a number
+	    	System.out.println("Enter a number: ");
+	    String a = input.nextInt();   
+	    
+	    int remainder = a % 2;
+	    
+	    if (remainder != 0) {
+	    	System.out.println(a + " is odd.");
+	    }
+	    if (remainder == 0){
+	    	System.out.println(a = " is even.");
+	    }
+	  }
+}
