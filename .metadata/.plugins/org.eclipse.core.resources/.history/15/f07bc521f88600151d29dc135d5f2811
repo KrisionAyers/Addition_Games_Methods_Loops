@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Addition_Game_Methods_Loops {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int score;
+		// Call the addition game.
+		score = additionGameMethod();
+		
+		System.out.print("All done.");
+		
+	}
+	public static int additionGameMethod() {
+		
+		int score = 0;
+		int hardness = 5;
+		System.out.print("Howdy");
+		return 0;
+		
+	} {
+		
+		
+		
+		
+	}
+}

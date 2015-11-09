@@ -21,7 +21,7 @@ public class Addition_Game_Methods_Loops {
 			isAnswerCorrect = checkAnserMethod(hardness);
 			if(isAnswerCorrect);
 				System.out.println("it was correct");
-		}{
+		}else{
 				System.out.println("it was correct");
 
 		}
